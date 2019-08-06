@@ -1,7 +1,6 @@
 const main = () => {
-  if (document.querySelector('h1.hello-world')) {
-    document.querySelector('h1.hello-world').textContent = 'Hello, World!'
-  }
+  const targetNumber = Math.ceil(Math.random() * 10)
+  console.log(targetNumber)
 }
 
 document.addEventListener('DOMContentLoaded', main)
